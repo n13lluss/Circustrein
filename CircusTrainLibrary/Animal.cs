@@ -37,26 +37,20 @@ namespace CircusTrainLibrary
             }
         }
 
-        public bool CanEat(List<Animal> InWagon)
+        public bool CanEat(Animal AnimalInWagon)
         {
-            foreach(Animal anim in InWagon)
+            if (Diet == DietType.MeatEater && Size >= AnimalInWagon.Size)
             {
-                if(Diet == DietType.MeatEater && Size >= anim.Size)
-                {
-                    return true;
-                }
+                return true;
             }
             return false;
         }
 
-        public bool GetsEaten(List<Animal> InWagon)
+        public bool GetsEaten(Animal AnimalInWagon)
         {
-            foreach(Animal anim in InWagon)
+            if (AnimalInWagon.Diet == DietType.MeatEater && Size <= AnimalInWagon.Size)
             {
-                if(anim.Diet == DietType.MeatEater && Size <= anim.Size)
-                {
-                    return true;
-                }
+                return true;
             }
             return false;
         }

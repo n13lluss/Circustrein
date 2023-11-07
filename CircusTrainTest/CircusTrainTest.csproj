@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CircusTrain\CircusTrainLibrary.csproj" />
+    <ProjectReference Include="C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\CircusTrainLibrary.csproj" />
   </ItemGroup>
 
 </Project>

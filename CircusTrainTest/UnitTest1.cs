@@ -14,7 +14,7 @@ namespace CircusTrainTest
         public void Senario1()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
 
@@ -37,7 +37,7 @@ namespace CircusTrainTest
         public void Senario2()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
 
@@ -61,7 +61,7 @@ namespace CircusTrainTest
         public void Senario3()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
 
@@ -86,7 +86,7 @@ namespace CircusTrainTest
         public void Senario4()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "small");
@@ -116,7 +116,7 @@ namespace CircusTrainTest
         public void Senario5()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
 
@@ -138,7 +138,7 @@ namespace CircusTrainTest
         public void Senario6()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "small");
@@ -164,7 +164,7 @@ namespace CircusTrainTest
         public void Senario7()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "small");
@@ -206,7 +206,7 @@ namespace CircusTrainTest
         public void Senario8()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimalsToWagons();
 
@@ -221,7 +221,7 @@ namespace CircusTrainTest
         public void Senario9()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "medium");
             train.AddAnimal("meat", "medium");
@@ -240,7 +240,7 @@ namespace CircusTrainTest
         public void Senario10()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "small");
@@ -271,7 +271,7 @@ namespace CircusTrainTest
         public void Senario11()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "medium");
@@ -294,7 +294,7 @@ namespace CircusTrainTest
         public void Senario12()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "medium");
@@ -324,7 +324,7 @@ namespace CircusTrainTest
         public void Senario13()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "small");
@@ -356,7 +356,7 @@ namespace CircusTrainTest
         [Test]
         public void Senario14()
         {
-            Train train = new Train();
+            Train train = new();
 
             // Meat options
             train.AddAnimal("meat", "small");
@@ -431,7 +431,7 @@ namespace CircusTrainTest
         public void Senario15()
         {
             //arrange
-            Train train = new Train();
+            Train train = new();
 
             train.AddAnimal("meat", "small");
             train.AddAnimal("meat", "small");

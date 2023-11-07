@@ -7,9 +7,9 @@ using CircusTrainLibrary;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Train train = new Train();
+        Train train = new();
 
         train.AddAnimal("meat", "small");
         train.AddAnimal("plant", "medium");

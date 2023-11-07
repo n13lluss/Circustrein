@@ -10,3 +10,14 @@ C:\Users\niels\source\repos\CircusTrain2\CircusTrain\obj\Debug\net6.0\CircusTrai
 C:\Users\niels\source\repos\CircusTrain2\CircusTrain\obj\Debug\net6.0\refint\CircusTrainLibrary.dll
 C:\Users\niels\source\repos\CircusTrain2\CircusTrain\obj\Debug\net6.0\CircusTrainLibrary.pdb
 C:\Users\niels\source\repos\CircusTrain2\CircusTrain\obj\Debug\net6.0\ref\CircusTrainLibrary.dll
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\bin\Debug\net6.0\CircusTrainLibrary.deps.json
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\bin\Debug\net6.0\CircusTrainLibrary.dll
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\bin\Debug\net6.0\CircusTrainLibrary.pdb
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\CircusTrainLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\CircusTrainLibrary.AssemblyInfoInputs.cache
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\CircusTrainLibrary.AssemblyInfo.cs
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\CircusTrainLibrary.csproj.CoreCompileInputs.cache
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\CircusTrainLibrary.dll
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\refint\CircusTrainLibrary.dll
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\CircusTrainLibrary.pdb
+C:\Users\niels\Documents\repos\school\Circustrein\CircusTrainLibrary\obj\Debug\net6.0\ref\CircusTrainLibrary.dll

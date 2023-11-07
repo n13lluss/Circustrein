@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CircusTrain\CircusTrainLibrary.csproj" />
+    <ProjectReference Include="..\CircusTrainLibrary\CircusTrainLibrary.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,17 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircusTrain2", "CircusTrain2\CircusTrain2.csproj", "{C90ABD6C-6BBD-4B72-A86B-CF9A86A557C4}"
-	ProjectSection(ProjectDependencies) = postProject
-		{02459026-21D5-45B9-A3E5-59FA78F222A8} = {02459026-21D5-45B9-A3E5-59FA78F222A8}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircusTrain2", "CircusTrainGUI\CircusTrain2.csproj", "{9564A058-A2E5-4E6F-8376-9F41DF1ABE4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircusTrainLibrary", "CircusTrain\CircusTrainLibrary.csproj", "{02459026-21D5-45B9-A3E5-59FA78F222A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircusTrainLibrary", "CircusTrainLibrary\CircusTrainLibrary.csproj", "{E1F6B1BB-BB2B-4E73-89AB-4B4C2BE1224A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusTrainTest", "CircusTrainTest\CircusTrainTest.csproj", "{1680AF11-A3C1-4BE1-BF86-2B095A35C863}"
-	ProjectSection(ProjectDependencies) = postProject
-		{02459026-21D5-45B9-A3E5-59FA78F222A8} = {02459026-21D5-45B9-A3E5-59FA78F222A8}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircusTrainTest", "CircusTrainTest\CircusTrainTest.csproj", "{C54D902A-51B1-48A7-A5B1-61EFCFC589F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C90ABD6C-6BBD-4B72-A86B-CF9A86A557C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C90ABD6C-6BBD-4B72-A86B-CF9A86A557C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C90ABD6C-6BBD-4B72-A86B-CF9A86A557C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C90ABD6C-6BBD-4B72-A86B-CF9A86A557C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02459026-21D5-45B9-A3E5-59FA78F222A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02459026-21D5-45B9-A3E5-59FA78F222A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02459026-21D5-45B9-A3E5-59FA78F222A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02459026-21D5-45B9-A3E5-59FA78F222A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1680AF11-A3C1-4BE1-BF86-2B095A35C863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1680AF11-A3C1-4BE1-BF86-2B095A35C863}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1680AF11-A3C1-4BE1-BF86-2B095A35C863}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1680AF11-A3C1-4BE1-BF86-2B095A35C863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9564A058-A2E5-4E6F-8376-9F41DF1ABE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9564A058-A2E5-4E6F-8376-9F41DF1ABE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9564A058-A2E5-4E6F-8376-9F41DF1ABE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9564A058-A2E5-4E6F-8376-9F41DF1ABE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F6B1BB-BB2B-4E73-89AB-4B4C2BE1224A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F6B1BB-BB2B-4E73-89AB-4B4C2BE1224A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F6B1BB-BB2B-4E73-89AB-4B4C2BE1224A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F6B1BB-BB2B-4E73-89AB-4B4C2BE1224A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54D902A-51B1-48A7-A5B1-61EFCFC589F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54D902A-51B1-48A7-A5B1-61EFCFC589F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54D902A-51B1-48A7-A5B1-61EFCFC589F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54D902A-51B1-48A7-A5B1-61EFCFC589F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

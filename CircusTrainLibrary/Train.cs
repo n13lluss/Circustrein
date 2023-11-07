@@ -24,22 +24,20 @@ namespace CircusTrainLibrary
             {
                 bool added = false;
                 
-                foreach(Wagon wagon in wagons) 
-                {
-                    if (wagon.CanBeAdded(animal))
+                foreach(Wagon wagon in wagons) { 
+                
+                    if(!added)
                     {
-                        wagon.animals.Add(animal);
-                        added = true;
-                        break;
-                    } 
+                        added = wagon.CanBeAdded(animal); 
+                    }
+
                 }
 
                 if (!added)
                 {
                     Wagon Wagon = new Wagon();
-                    Wagon.animals.Add(animal);
+                    Wagon.CanBeAdded(animal);
                     wagons.Add(Wagon);
-                    added = true;
                 }
             }
             PrintWagons();
@@ -50,8 +48,8 @@ namespace CircusTrainLibrary
             int wagonCount = 1;
             foreach(Wagon wagon in wagons)
             {
-                Console.WriteLine($"Wagon {wagonCount}, count = {wagon.animals.Sum(animal => animal.GetSpaceRequired())}");
-                foreach(Animal animal in wagon.animals)
+                Console.WriteLine($"Wagon {wagonCount}, count = {wagon.Animals.Sum(animal => animal.GetSpaceRequired())}");
+                foreach(Animal animal in wagon.Animals)
                 {
                     Console.WriteLine($"{animal.Size} and is {animal.Diet}");
                 }

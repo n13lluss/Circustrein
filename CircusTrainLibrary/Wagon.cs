@@ -9,12 +9,14 @@ namespace CircusTrainLibrary
 {
     public class Wagon
     {
-        public List<Animal> animals = new List<Animal>();
+        private List<Animal> animals = new List<Animal>();
+        public IReadOnlyList<Animal> Animals { get {  return animals; } }
 
         public bool CanBeAdded(Animal animal)
         {
             if(SaveToAdd(animal) && EnoughSpace(animal))
-            {           
+            {         
+                animals.Add(animal);
                 return true;
             }
             return false;
@@ -22,11 +24,14 @@ namespace CircusTrainLibrary
 
         public bool SaveToAdd(Animal animal) 
         {
-            if(!animal.CanEat(animals) && !animal.GetsEaten(animals))
+            foreach(Animal AnimalInWagon in animals)
             {
-                return true;
+                if (animal.CanEat(AnimalInWagon) && animal.GetsEaten(AnimalInWagon))
+                {
+                    return false;
+                }
             }
-            return false;
+            return true;
         }
 
         public bool EnoughSpace(Animal animal)

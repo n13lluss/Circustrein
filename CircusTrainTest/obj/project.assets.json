@@ -3927,8 +3927,8 @@
     },
     "CircusTrainLibrary/1.0.0": {
       "type": "project",
-      "path": "../CircusTrain/CircusTrainLibrary.csproj",
-      "msbuildProject": "../CircusTrain/CircusTrainLibrary.csproj"
+      "path": "../CircusTrainLibrary/CircusTrainLibrary.csproj",
+      "msbuildProject": "../CircusTrainLibrary/CircusTrainLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3948,11 +3948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\niels\\source\\repos\\CircusTrain2\\CircusTrainTest\\CircusTrainTest.csproj",
+      "projectUniqueName": "C:\\Users\\niels\\Documents\\repos\\school\\Circustrein\\CircusTrainTest\\CircusTrainTest.csproj",
       "projectName": "CircusTrainTest",
-      "projectPath": "C:\\Users\\niels\\source\\repos\\CircusTrain2\\CircusTrainTest\\CircusTrainTest.csproj",
+      "projectPath": "C:\\Users\\niels\\Documents\\repos\\school\\Circustrein\\CircusTrainTest\\CircusTrainTest.csproj",
       "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\niels\\source\\repos\\CircusTrain2\\CircusTrainTest\\obj\\",
+      "outputPath": "C:\\Users\\niels\\Documents\\repos\\school\\Circustrein\\CircusTrainTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3967,14 +3967,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\niels\\source\\repos\\CircusTrain2\\CircusTrain\\CircusTrainLibrary.csproj": {
-              "projectPath": "C:\\Users\\niels\\source\\repos\\CircusTrain2\\CircusTrain\\CircusTrainLibrary.csproj"
+            "C:\\Users\\niels\\Documents\\repos\\school\\Circustrein\\CircusTrainLibrary\\CircusTrainLibrary.csproj": {
+              "projectPath": "C:\\Users\\niels\\Documents\\repos\\school\\Circustrein\\CircusTrainLibrary\\CircusTrainLibrary.csproj"
             }
           }
         }
@@ -4026,7 +4027,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
