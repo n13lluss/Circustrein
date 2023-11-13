@@ -28,7 +28,7 @@ namespace CircusTrainLibrary
                 
                     if(!added)
                     {
-                        added = wagon.CanBeAdded(animal); 
+                        added = wagon.TryAddAnimal(animal); 
                     }
 
                 }
@@ -36,7 +36,7 @@ namespace CircusTrainLibrary
                 if (!added)
                 {
                     Wagon Wagon = new Wagon();
-                    Wagon.CanBeAdded(animal);
+                    Wagon.TryAddAnimal(animal);
                     wagons.Add(Wagon);
                 }
             }

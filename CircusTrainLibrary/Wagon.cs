@@ -12,9 +12,9 @@ namespace CircusTrainLibrary
         private List<Animal> animals = new List<Animal>();
         public IReadOnlyList<Animal> Animals { get {  return animals; } }
 
-        public bool CanBeAdded(Animal animal)
+        public bool TryAddAnimal(Animal animal)
         {
-            if(SaveToAdd(animal) && EnoughSpace(animal))
+            if(SafeToAdd(animal) && EnoughSpace(animal))
             {         
                 animals.Add(animal);
                 return true;
@@ -22,7 +22,7 @@ namespace CircusTrainLibrary
             return false;
         }
 
-        public bool SaveToAdd(Animal animal) 
+        private bool SafeToAdd(Animal animal) 
         {
             foreach(Animal AnimalInWagon in animals)
             {
@@ -34,7 +34,7 @@ namespace CircusTrainLibrary
             return true;
         }
 
-        public bool EnoughSpace(Animal animal)
+        private bool EnoughSpace(Animal animal)
         {
             int sum = animals.Sum(anim => anim.GetSpaceRequired());
             int result = sum + animal.GetSpaceRequired();
